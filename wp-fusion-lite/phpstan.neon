@@ -1,0 +1,10 @@
+parameters:
+    level: 5
+    checkExplicitMixedMissingReturn: false
+    reportUnmatchedIgnoredErrors: false
+    excludePaths:
+        - **/node_modules/*
+        - **/vendor/*
+        - **/tests/*
+    paths:
+        - ./
